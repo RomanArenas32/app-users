@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(148, 184, 243);
+    font-family: monospace;
+}
+
+.navegacion {
+    background-color: rgb(49, 89, 234);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    box-shadow: 10px 5px 5px black;
+    color: white;
+}
+
+.formParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.campoInput {
+    height: 50px;
+}
+
+.campoInput>input {
+    height: 30px;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+button {
+    border-radius: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 49, 221);
+    width: 490px;
+    height: 120px;
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+    color: white;
+}
+
+.contenedor-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: center;
+}
+
+.formParent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+}
+button:hover{
+    cursor: pointer;
+}
